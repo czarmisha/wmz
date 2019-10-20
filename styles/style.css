@@ -1,0 +1,36 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+.header{
+   padding: 40px 0;
+}
+.header .container{
+   background: rgb(224, 214, 189);
+}
+.header__top{
+   padding-bottom: 30px;
+}
+.header__logo{
+   font-size: 22px;
+   color: rgb(255, 6, 6);
+}
+.header__logo:hover{
+   text-decoration: none;
+   color: rgb(153, 6, 6);
+}
+.header__bottom-link{
+   display: block;
+   padding: 12px 30px;
+   border-top: 4px solid rgb(194, 194, 194);
+   color: rgb(167, 167, 167);
+   font-size: 18px;
+}
+.header__bottom-link:hover{
+   /* background: rgb(200, 189, 189); */
+   border-top: 4px solid rgb(34, 168, 209);
+   text-decoration: none;
+   color: rgb(167, 167, 167);
+}
