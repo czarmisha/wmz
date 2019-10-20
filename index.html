@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="styles/burger.css">
    <title>Document</title>
 </head>
 
@@ -22,7 +23,22 @@
             </div>
          </div>
          <div class="header__bottom">
-            <ul class="d-flex justify-content-center align-items-center">
+            <div class="hamburger-menu">
+               <input id="menu__toggle" type="checkbox" />
+               <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+               </label>
+
+               <ul class="menu__box">
+                  <li><a class="menu__item header__bottom-link" href="#">Продажа</a></li>
+                  <li><a class="menu__item header__bottom-link" href="#">Покупка</a></li>
+                  <li><a class="menu__item header__bottom-link" href="#">Разное</a></li>
+                  <li><a class="menu__item header__bottom-link" href="#">Добавить объявление</a></li>
+                  <li><a class="menu__item header__bottom-link" href="#">Правила сайта</a></li>
+                  <li><a class="menu__item header__bottom-link" href="#">Контакты</a></li>
+               </ul>
+            </div>
+            <ul class="d-flex justify-content-center align-items-center first-menu">
                <li><a href="#" class="header__bottom-link">Продажа</a></li>
                <li><a href="#" class="header__bottom-link">Покупка</a></li>
                <li><a href="#" class="header__bottom-link">Разное</a></li>
