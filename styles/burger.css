@@ -100,4 +100,7 @@
    .header__bottom .first-menu{
       display: none !important;
    }
+   .banner-2{
+      display: none;
+   }
 } 
